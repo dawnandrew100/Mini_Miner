@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Mini_Miner"
+version = "0.0.1"
+authors = [
+	{ name ="Andrew Hennis", email="andrew.mr.hennis@gmail.com" },
+]
+desctiption = "Solve for hackattic's mini miner challenge"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+dependencies = [
+  "requests"
+]
+
+[project.urls]
+Homepage = "https://github.com/dawnandrew100/Mini_Miner"
+Issues = "https://github.com/dawnandrew100/Mini_Miner/issues"
