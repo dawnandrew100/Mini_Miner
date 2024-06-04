@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='Mini_Miner',
-    version='0.0.1',
+    version='1.0.0',
 
     packages=['Mini_Miner'],
     package_data={'': ['*.json']},
